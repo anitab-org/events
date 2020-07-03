@@ -17,7 +17,7 @@
 
 -----------------------------------------------------------------------------------*/
 /*===========================
-      01.COMMON css 
+      01.COMMON css
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
 body {
@@ -396,7 +396,7 @@ p {
     -o-transform: rotate(-130deg);
     transform: rotate(-130deg); } }
 /*===========================
-    11.BUTTON css 
+    11.BUTTON css
 ===========================*/
 .buttons-title .title {
   font-size: 36px;
@@ -1988,7 +1988,7 @@ p {
     background-position: right center; }
 
 /*===========================
-    06.FORM ELEMENTS css 
+    06.FORM ELEMENTS css
 ===========================*/
 .form-elements-title {
   font-size: 36px;
@@ -2159,7 +2159,7 @@ p {
     border-radius: 5px; }
 
 /*===========================
-        09.NAVBAR css 
+        09.NAVBAR css
 ===========================*/
 .navbar-area {
   position: absolute;
@@ -2357,7 +2357,7 @@ p {
       color: #fff; }
 
 /*===========================
-       10.SLIDER css 
+       10.SLIDER css
 ===========================*/
 .carousel-item {
   background-color: #0067f4;
@@ -2524,7 +2524,7 @@ p {
       right: 30px; } }
 
 /*===========================
-      17.FEATURES css 
+      17.FEATURES css
 ===========================*/
 /*===== features TWO =====*/
 .features-area {
@@ -2584,7 +2584,7 @@ p {
     margin-top: 29px; }
 
 /*===========================
-      18.PORTFOLIO css 
+      18.PORTFOLIO css
 ===========================*/
 .portfolio-area {
   padding-top: 120px;
@@ -2693,7 +2693,7 @@ p {
   visibility: visible; }
 
 /*===========================
-      16.PRICING css 
+      16.PRICING css
 ===========================*/
 .pricing-area {
   background-color: #f4f6f7;
@@ -2772,7 +2772,7 @@ p {
         box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.16); }
 
 /*===========================
-       15.ABOUT css 
+       15.ABOUT css
 ===========================*/
 .about-area {
   padding-top: 80px;
@@ -2835,7 +2835,7 @@ p {
     width: 100%; }
 
 /*===========================
-      26.TESTIMONIAL css 
+      26.TESTIMONIAL css
 ===========================*/
 /*===== TESTIMONIAL STYLE THREE =====*/
 .testimonial-area {
@@ -2983,7 +2983,7 @@ p {
         left: -445px; } }
 
 /*===========================
-        13.TEAM css 
+        13.TEAM css
 ===========================*/
 /*===== TEAM STYLE ELEVEN =====*/
 .team-style-eleven {
@@ -3098,7 +3098,7 @@ p {
       color: #fff; }
 
 /*===========================
-      19.CONTACT css 
+      19.CONTACT css
 ===========================*/
 .contact-area {
   padding-top: 120px;
@@ -3153,9 +3153,149 @@ p.form-message.success, p.form-message.error {
     margin-right: 8px; }
   .contact-wrapper .contact-title span {
     font-weight: 400; }
+    /*Timeline*/
+
+    .timeline {
+      list-style: none;
+      padding: 10px 0 10px;
+      position: relative;
+    }
+
+    .timeline:before {
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      content: " ";
+      width: 3px;
+      background-color: #eeeeee;
+      left: 50%;
+      margin-left: -1.5px;
+    }
+
+    .timeline > li {
+      margin-bottom: 0x;
+      position: relative;
+    }
+
+    .timeline > li:before,
+    .timeline > li:after {
+      content: " ";
+      display: table;
+    }
+
+    .timeline > li:after {
+      clear: both;
+    }
+
+    .timeline > li > .timeline-panel {
+      width: 46%;
+      float: left;
+      border: 1px solid #d4d4d4;
+      border-radius: 2px;
+      padding: 10px;
+      position: relative;
+      -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.275);
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.275);
+    }
+
+    .timeline > li > .timeline-panel:before {
+      position: absolute;
+      top: 26px;
+      right: -15px;
+      display: inline-block;
+      border-top: 15px solid transparent;
+      border-left: 15px solid #ccc;
+      border-right: 0 solid #ccc;
+      border-bottom: 15px solid transparent;
+      content: " ";
+    }
+
+    .timeline > li > .timeline-panel:after {
+      position: absolute;
+      top: 27px;
+      right: -14px;
+      display: inline-block;
+      border-top: 14px solid transparent;
+      border-left: 14px solid #fff;
+      border-right: 0 solid #fff;
+      border-bottom: 14px solid transparent;
+      content: " ";
+    }
+
+    .timeline > li > .timeline-badge {
+      color: #fff;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+      text-align: center;
+      position: absolute;
+      top: 16px;
+      left: 50%;
+      margin-left: -25px;
+      background-color: #999999;
+      z-index: 100;
+      border-top-right-radius: 50%;
+      border-top-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+    }
+
+    .timeline > li.timeline-inverted > .timeline-panel {
+      float: right;
+    }
+
+    .timeline > li.timeline-inverted > .timeline-panel:before {
+      border-left-width: 0;
+      border-right-width: 15px;
+      left: -15px;
+      right: auto;
+    }
+
+    .timeline > li.timeline-inverted > .timeline-panel:after {
+      border-left-width: 0;
+      border-right-width: 14px;
+      left: -14px;
+      right: auto;
+    }
+
+    .timeline-badge.primary {
+      background-color:#5BC0DE !important;
+    }
+
+    .timeline-badge.success {
+      background-color: #008CBA !important;
+    }
+
+    .timeline-badge.warning {
+      background-color: #008CBA !important;
+    }
+
+    .timeline-badge.danger {
+      background-color: #5BC0DE !important;
+    }
+
+    .timeline-badge.info {
+      background-color: #5BC0DE !important;
+    }
+
+    .timeline-title {
+      margin-top: 0;
+      color:#413e66;
+    }
+
+    .timeline-body > p,
+    .timeline-body > ul {
+      margin-bottom: 0;
+    }
+
+    .timeline-body > p + p {
+      margin-top: 5px;
+    }
+
 
 /*===========================
-    21.FOOTER css 
+    21.FOOTER css
 ===========================*/
 /*===== FOOTER FIVE =====*/
 .footer-area {
