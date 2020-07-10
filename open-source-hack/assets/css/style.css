@@ -24,7 +24,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #101820; }
+  color: #101820 !important; }
 
 * {
   margin: 0;
@@ -90,7 +90,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #101820;
+  color: #101820 !important;
   margin: 0px; }
 
 .bg_cover {
@@ -2178,7 +2178,7 @@ p {
     .navbar-area .navbar .navbar-toggler .toggler-icon {
       width: 30px;
       height: 2px;
-      background-color: #fff;
+      background-color: #101820;
       margin: 5px 0;
       display: block;
       position: relative;
@@ -2432,7 +2432,7 @@ p {
         font-size: 34px;
         line-height: 45px; } }
   .slider-content .text {
-    color: #fff;
+    color: #fff !important;
     font-size: 16px;
     line-height: 24px;
     margin-top: 16px; }
@@ -2588,7 +2588,7 @@ p {
     margin-top: 29px; }
   .features-btn:hover {
     color: #005c88 !important;
-    font-style: underline;
+    text-decoration: underline !important;
     font-weight: 900;}
   
 
@@ -2598,8 +2598,8 @@ p {
       18.PORTFOLIO css
 ===========================*/
 .portfolio-area {
-  padding-top: 120px;
-  padding-bottom: 130px; }
+  background-color: #f4f6f7;
+  padding: 80px 0px; }
 
 .portfolio-menu ul li {
   font-size: 16px;
@@ -2708,8 +2708,7 @@ p {
 ===========================*/
 .pricing-area {
   background-color: #f4f6f7;
-  padding-top: 120px;
-  padding-bottom: 130px; }
+  padding: 80px 0px; }
 
 /*===== PRICING STYLE NINE =====*/
 .pricing-style {
@@ -3310,66 +3309,65 @@ p.form-message.success, p.form-message.error {
 ===========================*/
 /*===== FOOTER FIVE =====*/
 .footer-area {
-  background-color: #f4f6f7;
-  padding-top: 90px;
-  padding-bottom: 120px; }
-  .footer-area .social li {
-    display: inline-block;
-    margin: 0 5px; }
-    .footer-area .social li a {
-      font-size: 24px;
-      color: #919394;
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s; }
-      .footer-area .social li a:hover {
-        color: #54BCEB; }
-  .footer-area .footer-support {
-    padding-top: 21px; }
-    .footer-area .footer-support span {
-      font-size: 16px;
-      line-height: 24px;
-      color: #101820;
-      font-weight: 600;
-      margin-top: 9px;
-      display: block; }
+  background-color: #101820;
+  padding: 0px;}
+.footer-area .social li {
+  display: inline-block;
+  margin: 0 5px; }
+.footer-area .social li a {
+  font-size: 24px;
+  color: #919394;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+.footer-area .social li a:hover {
+  color: #54BCEB; }
+.footer-area .footer-support {
+  padding-top: 21px; }
+.footer-area .footer-support span {
+  font-size: 16px;
+  line-height: 24px;
+  color: #101820;
+  font-weight: 600;
+  margin-top: 9px;
+  display: block; }
       @media (max-width: 767px) {
         .footer-area .footer-support span {
           display: block; } }
-  .footer-area .footer-app-store {
-    padding-top: 27px; }
-    .footer-area .footer-app-store ul li {
-      display: inline-block;
-      margin-right: 8px; }
+        .footer-area .footer-app-store {
+          padding-top: 27px; }
+        .footer-area .footer-app-store ul li {
+          display: inline-block;
+          margin-right: 8px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .footer-area .footer-app-store ul li {
           margin-right: 6px; } }
-      .footer-area .footer-app-store ul li:last-child {
-        margin-right: 0; }
+        .footer-area .footer-app-store ul li:last-child {
+          margin-right: 0; }
       @media (max-width: 767px) {
         .footer-area .footer-app-store ul li {
           width: 120px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
         .footer-area .footer-app-store ul li {
           width: auto; } }
-  .footer-area .copyright .text {
-    color: #101820; }
-  .footer-area.footer-dark {
-    background-color: #101820; }
-    .footer-area.footer-dark .social li a {
-      color: #fff; }
-    .footer-area.footer-dark .footer-support {
-      padding-top: 21px; }
-      .footer-area.footer-dark .footer-support span {
-        color: #fff; }
-    .footer-area.footer-dark .footer-app-store {
-      padding-top: 27px; }
-      .footer-area.footer-dark .footer-app-store ul li {
-        color: #fff; }
-    .footer-area.footer-dark .copyright .text {
-      color: #fff; }
+.footer-area .copyright .text {
+  color: #fff; }
+.footer-area.footer-dark {
+  background-color: #101820; }
+.footer-area.footer-dark .social li a {
+  color: #fff; }
+.footer-area.footer-dark .footer-support {
+  padding-top: 21px; }
+.footer-area.footer-dark .footer-support span {
+  color: #fff; }
+.footer-area.footer-dark .footer-app-store {
+  padding-top: 27px; }
+.footer-area.footer-dark .footer-app-store ul li {
+  color: #fff; }
+.footer-area.footer-dark .copyright .text {
+  color: #fff; }
 
 /*===== BACK TO TOP =====*/
 .back-to-top {
