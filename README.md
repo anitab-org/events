@@ -1,2 +1,4 @@
 # events
-https://anitab-org.github.io/events/open_source_hack_template_website/
+
+
+Open Source Hack Website: https://anitab-org.github.io/events/open-source-hack/
