@@ -2576,6 +2576,11 @@ p {
       position: absolute;
       top: 0;
       left: 0; }
+    .shape {
+      height: 70px;
+      width: 70px;
+
+    }
   .single-features .features-content .text {
     font-size: 14px;
     line-height: 20px;
@@ -2707,7 +2712,7 @@ p {
       16.PRICING css
 ===========================*/
 .pricing-area {
-  background-color: #f4f6f7;
+  background-color: #ffffff;
   padding: 80px 0px; }
 
 /*===== PRICING STYLE NINE =====*/
@@ -2784,10 +2789,22 @@ p {
 /*===========================
        15.ABOUT css
 ===========================*/
+.about-ul{
+  list-style-type: disc;
+  list-style-position:  inside;
+}
+.about-li{
+  font-size: 14px;
+  line-height: 16px;
+  color: #101820;
+  margin-top: 15px;
+  }
+
 .about-area {
   padding-top: 80px;
   padding-bottom: 130px;
-  position: relative; }
+  position: relative;
+  background-color: #f4f6f7; }
   .about-area .about-title .sub-title {
     font-size: 18px;
     font-weight: 400;
