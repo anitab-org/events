@@ -2706,7 +2706,7 @@ p {
           left: 0; }
 .single-portfolio:hover .portfolio-overlay {
   opacity: 1;
-  visibility: visible; }
+  visibility: hidden; }
 
 /*===========================
       16.PRICING css
