@@ -3410,4 +3410,16 @@ p.form-message.success, p.form-message.error {
     color: #fff;
     background-color: #005c88; }
 
+    
+ /* Carousel slider buttons canges color on hover  */   
+.carousel-control-next:focus, .carousel-control-next:hover,
+.carousel-control-prev:focus, .carousel-control-prev:hover{
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+  background-color: #4da422;
+  box-shadow: 0px 15px 20px rgb(46 229 157 /40%);
+  transform: translateY(-7px);
+}
+
 /*# sourceMappingURL=style.css.map */
