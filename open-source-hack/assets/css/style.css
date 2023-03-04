@@ -862,15 +862,15 @@ p {
 .rounded-buttons .rounded-one {
   border-color: #54BCEB; }
   .rounded-buttons .rounded-one:hover {
-    color: #54BCEB;
-    background-color: #005c88; }
+    color: #ffffff;
+    background-color: #84d0f3; }
 .rounded-buttons .rounded-two {
   color: #fff;
   background-color: #54BCEB;
   border-color: #54BCEB; }
   .rounded-buttons .rounded-two:hover {
-    color: #54BCEB;
-    background-color: transparent; }
+    color: #ffffff;
+    background-color: #84d0f3; }
 .rounded-buttons .rounded-three {
   overflow: hidden;
   line-height: 52px;
@@ -1574,7 +1574,7 @@ p {
   @media (max-width: 767px) {
     .lg-btn {
       font-size: 16px;
-      ine-height: 52px; } }
+      line-height: 52px; } }
 
 .el-btn {
   line-height: 80px !important;
@@ -2448,10 +2448,13 @@ p {
         background-color: #fff;
         border-color: #fff; }
         .slider-content .slider-btn li a.rounded-one:hover {
-          background-color: transparent;
-          color: #fff; }
+          background-color: rgba(0, 0, 0, 0.15);
+          color: #f2f2f3; }
+          
       .slider-content .slider-btn li a.rounded-two {
-        border-color: #fff; }
+        border-color: #fff;
+        background-color: rgba(0, 0, 0, 0.15);
+        color: #f2f2f3; }
         .slider-content .slider-btn li a.rounded-two:hover {
           background-color: #fff;
           color: #54BCEB; }
